@@ -1,5 +1,13 @@
 #!/bin/bash -ex
 
+################
+# Note: If the deployment host was installed via XenRTcenter, please firstly enabled the base repository;
+# and disable the XenRT repository.
+#[root@localhost yum.repos.d]# pwd
+#/etc/yum.repos.d
+#[root@localhost yum.repos.d]# ls
+#CentOS-Base.repo  CentOS-Debuginfo.repo  CentOS-Media.repo    CentOS-Vault.repo  docker.repo  epel-testing.repo
+#CentOS-CR.repo    CentOS-fasttrack.repo  CentOS-Sources.repo  docker-ce.repo     epel.repo    xenrt.repo.disable
 ######################
 # install dependence
 ######################
