@@ -39,7 +39,8 @@ systemctl daemon-reload
 systemctl restart docker
 
 
-pip install -U docker
+#pip install -U docker
+yum install ansible
 
 # install NTP (not needed for AIO I guess)
 yum install -y ntp
