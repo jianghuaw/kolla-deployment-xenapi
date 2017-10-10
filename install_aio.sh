@@ -40,7 +40,6 @@ systemctl restart docker
 
 
 #pip install -U docker
-yum install ansible
 
 # install NTP (not needed for AIO I guess)
 yum install -y ntp
@@ -54,7 +53,7 @@ pip install kolla-ansible kolla
 
 # Copy the configuration files globals.yml and passwords.yml to /etc directory.
 cp -r /usr/share/kolla-ansible/etc_examples/kolla /etc/kolla/
-
+f
 # copy the inventory files
 cp /usr/share/kolla-ansible/ansible/inventory/* .
 
