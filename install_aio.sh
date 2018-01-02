@@ -5,6 +5,8 @@
 # and disable the XenRT repository.
 #[root@localhost yum.repos.d]# pwd
 #/etc/yum.repos.d
+rename .orig '' Cen*
+mv xenrt.repo xenrt.repo.bakup
 #[root@localhost yum.repos.d]# ls
 #CentOS-Base.repo  CentOS-Debuginfo.repo  CentOS-Media.repo    CentOS-Vault.repo  docker.repo  epel-testing.repo
 #CentOS-CR.repo    CentOS-fasttrack.repo  CentOS-Sources.repo  docker-ce.repo     epel.repo    xenrt.repo.disable
